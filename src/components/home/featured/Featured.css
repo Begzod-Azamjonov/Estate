@@ -1,0 +1,31 @@
+.featured .box {
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+  border-radius: 6px;
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.featured img {
+  width: 65px;
+  height: 65px;
+  margin: auto;
+}
+
+.featured .box:nth-child(1):hover {
+  box-shadow: 0 0 20px 0 #dca0a0;
+}
+.featured .box:nth-child(2):hover {
+  box-shadow: 0 0 20px 0 #a3e2aa;
+}
+.featured .box:nth-child(3):hover {
+  box-shadow: 0 0 20px 0 #dfbe96;
+}
+.featured .box:nth-child(4):hover {
+  box-shadow: 0 0 20px 0 #bd94d5;
+}
+.featured .box:nth-child(5):hover {
+  box-shadow: 0 0 20px 0 #99c8de;
+}
+
+
